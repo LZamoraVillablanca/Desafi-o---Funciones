@@ -1,0 +1,96 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E1C89D;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  
+  main {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .ejercicio1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .cat-1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .ejercicio2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .cards {
+    width: 18rem;
+  }
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+  }
+  
+  .card-img {
+    border: 1px solid #483C3D;
+    border-radius: 5%;
+    width: 100%;
+    height: auto;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+
+  .comprar {
+    padding: 10px 20px;
+    background-color: #794A12;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .ejercicio3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .response-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%; 
+  }
+  
+  #btn {
+    padding: 10px 20px;
+    background-color: #C46777;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
